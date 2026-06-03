@@ -41,6 +41,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/pom.xml" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -62,6 +65,7 @@
     &quot;Spring Boot.TransactionApiMsApplication.executor&quot;: &quot;Run&quot;,
     &quot;Spring Boot.TransactionServiceMsApplication.executor&quot;: &quot;Run&quot;,
     &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;&lt;unknown&gt;&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/joscu/OneDrive/Documentos/PruebaEglobal/transaction-platform&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;

@@ -121,7 +121,6 @@ public class TransactionServiceImpl implements TransactionService {
                 .reference(entity.getReference())
                 .operation(entity.getOperation())
                 .client(entity.getClient())
-                .amount(entity.getAmount())
                 .build();
     }
 

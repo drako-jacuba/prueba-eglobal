@@ -14,10 +14,7 @@ import org.springframework.web.bind.annotation.*;
 public interface TransactionFeignClient {
 
     @PostMapping("/transactions")
-    TransactionResponse saveTransaction(
-            @RequestBody
-            TransactionServiceRequest request
-    );
+    TransactionResponse saveTransaction(@RequestBody TransactionServiceRequest request);
 
     @GetMapping("/transactions")
     Page<TransactionResponse> findAll(

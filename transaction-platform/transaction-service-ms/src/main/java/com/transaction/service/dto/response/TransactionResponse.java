@@ -17,5 +17,4 @@ public class TransactionResponse {
 
     private String operation;
 
-    private Double amount;
 }

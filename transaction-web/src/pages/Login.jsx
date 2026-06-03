@@ -7,15 +7,19 @@ function Login() {
   const navigate = useNavigate();
 
   const handleLogin = async () => {
-    try {
+    if (!username.trim()) {
+      alert("El usuario es obligatorio");
 
-      navigate("/dashboard");
-
-    } catch (error) {
-      console.error("Error login:", error.response?.data);
-
-      alert(error.response?.data?.message || "Login error");
+      return;
     }
+
+    if (!password.trim()) {
+      alert("El password es obligatorio");
+
+      return;
+    }
+
+    navigate("/dashboard");
   };
 
   return (

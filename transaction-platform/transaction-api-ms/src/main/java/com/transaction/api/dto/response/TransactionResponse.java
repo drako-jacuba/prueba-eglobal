@@ -11,9 +11,8 @@ public class TransactionResponse {
 
     private String reference;
 
-    private String operation;
-
     private String client;
 
-    private Double amount;
+    private String operation;
+
 }
