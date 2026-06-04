@@ -14,7 +14,7 @@ Transaction System es una aplicación desarrollada bajo una arquitectura basada 
 La solución está compuesta por:
 
 - Frontend React + Vite
-- API Gateway / Backend API (Spring Boot)
+- Backend API (Spring Boot)
 - Microservicio de Transacciones (Spring Boot)
 - Base de datos H2
 
