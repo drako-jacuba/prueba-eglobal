@@ -30,8 +30,7 @@ public class TransactionController {
         return service.saveTransaction(request);
     }
     @PatchMapping("/cancel")
-    public String cancelTransaction(
-            @Valid @RequestBody CancelTransactionRequest request) {
+    public String cancelTransaction(@Valid @RequestBody CancelTransactionRequest request) {
 
         return service.cancelTransaction(request);
     }
