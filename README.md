@@ -201,7 +201,7 @@ http://localhost:5173
 
 ```text
 Usuario : admin
-Password: password
+Password: admin123
 ```
 
 ---
